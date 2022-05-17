@@ -82,7 +82,7 @@ inquirer
 
       `# ${response.title}
 
-      
+
 ![${response.pictureDescription}](${response.picture})
 
 
@@ -96,7 +96,6 @@ ${response.description}
 * [License](#license)
 * [Contribution Guidelines](#contribution)
 * [Tests](#tests)
-* [Github](#github)
 * [Deployed Link](#deployed)
 * [Contact](#contact)
     * [Github](#github)
