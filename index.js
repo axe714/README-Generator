@@ -41,7 +41,7 @@ inquirer
     },
     {
       type: "input",
-      message: `What are the license terms for your project?`,
+      message: `What license is utilized by your project? (Use an "_" for a space, ex: ISC_1.0):`,
       name: "license",
     },
     {
@@ -77,9 +77,11 @@ inquirer
   ])
   .then((response) => {
     //create readME file with responses
-    fs.writeFile("README.md",
+    fs.writeFileSync("README.md",
 
 `# ${response.title}
+
+![${response.license}](https://img.shields.io/badge/License-${response.license}-blue.svg)
 
 ![${response.pictureDescription}](${response.picture})
 
@@ -104,7 +106,7 @@ ${response.installation}
 ${response.usage}
 
 ## License
-This project uses the following license(s):<br>
+This project uses the following license:<br>
 ${response.license}
 
 ## Contributors

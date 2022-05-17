@@ -1,5 +1,7 @@
 # README Generator
 
+![MIT](https://img.shields.io/badge/License-MIT-blue.svg)
+
 ![]()
 
 ## Description
@@ -24,13 +26,13 @@ Generates a README file for your projects using Inquirer
 
 ## License
 This project uses the following license(s):<br>
-None
+MIT
 
 ## Contributors
 Myself!
 
 ## Tests
-Self-tested using VSCode terminal
+Self-tested using VSCode Terminal
 
 ## README Generator Github Repository: 
 [README Generator](https://github.com/axe714/PasswordGenerator)
