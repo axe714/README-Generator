@@ -75,20 +75,16 @@ inquirer
       name: "email",
     },
   ])
-  .then(function (response) {
-    //creat readME file with responses
-    fs.writeFile(
-      "README.md",
+  .then((response) => {
+    //create readME file with responses
+    fs.writeFile("README.md",
 
-      `# ${response.title}
-
+`# ${response.title}
 
 ![${response.pictureDescription}](${response.picture})
 
-
 ## Description
 ${response.description}
-
 
 ## Table Of Contents
 * [Installation](#installation)
@@ -101,39 +97,30 @@ ${response.description}
     * [Github](#github)
     * [Email](#email)
 
-
 ## Installation
 ${response.installation}
 
-
 ## Usage
 ${response.usage}
-
 
 ## License
 This project uses the following license(s):<br>
 ${response.license}
 
-
-## Contribution Guidelines
+## Contributors
 ${response.contribution}
-
 
 ## Tests
 ${response.tests}
 
-
 ## ${response.title} Github Repository: 
 [${response.title}](${response.repo})
-
 
 ## Deployed Link:
 [${response.title}](${response.deployed})
 
-
-## Contact:
-
-### Github Profile: [${response.githubUsername}](${response.githubProfile})
+## Contact Information:
+[Github Profile - ${response.githubUsername}](${response.githubProfile})
 
 ### Email:
 For inquiries, please reach out to me at ${response.email}`,
