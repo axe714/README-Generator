@@ -99,6 +99,8 @@ ${response.description}
 * [Github](#github)
 * [Deployed Link](#deployed)
 * [Contact](#contact)
+    * [Github](#github)
+    * [Email](#email)
 
 
 ## Installation
@@ -110,6 +112,7 @@ ${response.usage}
 
 
 ## License
+This project uses the following license(s):<br>
 ${response.license}
 
 
@@ -130,7 +133,8 @@ ${response.tests}
 
 
 ## Contact:
-Github Profile: [${response.githubUsername}](${response.githubProfile})
+
+### Github Profile: [${response.githubUsername}](${response.githubProfile})
 
 ### Email:
 For inquiries, please reach out to me at ${response.email}`,
