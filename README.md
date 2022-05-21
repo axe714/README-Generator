@@ -8,7 +8,7 @@
 ![](./images/gif4.gif)
 
 ## Description
-- Generate a README
+- Easily create a structured README
 
 ## Table Of Contents
 * [Installation](#installation)
@@ -22,29 +22,30 @@
     * [Email](#email)
 
 ## Installation
-- in terminal, run: npm i to install the dependencies
+- Have nodeJS and Inquirer installed
 
 ## Usage
-- Generate a README using inquirer prompts
+- Generates a README file for your projects using Inquirer
 
 ## License
 - This project uses the following license:<br>
      ***MIT***
 
+
 ## Contributors
-- Myself for now. Feel free to contact me to contribute!
+- Myself for now. To contribute, please request a pull request or contact me below.
 
 ## Tests
-- Ran it on VSCode/node!
+- Self-tested using VSCode Terminal
 
 ## README Generator Github Repository: 
-- [README Generator](www.github.com/axe714)
+- [README Generator](https://github.com/axe714/PasswordGenerator)
 
 ## Deployed Link:
-- [README Generator](www.github.com/axe714)
+- [README Generator](https://github.com/axe714/PasswordGenerator)
 
 ## Contact Information:
-- [Github Profile - Axe714](www.github.com/axe714)
+- [Github Profile - Axe714](https://github.com/axe714)
 
 ### Email:
-- For inquiries/questions, please reach out to me at axe@github.com
+- For inquiries/questions, please reach out to me at allec@github.com
