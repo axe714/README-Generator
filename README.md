@@ -39,10 +39,10 @@
 - Self-tested using VSCode Terminal/node
 
 ## README Generator Github Repository: 
-- [README Generator](https://github.com/axe714/PasswordGenerator)
+- [README Generator](https://github.com/axe714/README-Generator)
 
 ## Deployed Link:
-- [README Generator](https://github.com/axe714/PasswordGenerator)
+- [README Generator](https://github.com/axe714/README-Generator)
 
 ## Contact Information:
 - [Github Profile - Axe714](https://github.com/axe714)
