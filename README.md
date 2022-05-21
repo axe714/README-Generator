@@ -36,7 +36,7 @@
 - Myself for now. To contribute, please request a pull request or contact me below.
 
 ## Tests
-- Self-tested using VSCode Terminal
+- Self-tested using VSCode Terminal/node
 
 ## README Generator Github Repository: 
 - [README Generator](https://github.com/axe714/PasswordGenerator)
