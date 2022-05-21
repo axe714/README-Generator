@@ -40,9 +40,10 @@ inquirer
       name: "contribution",
     },
     {
-      type: "input",
-      message: `What license is utilized by your project? (Use an "_" for a space, ex: ISC_1.0):`,
+      type: "list",
       name: "license",
+      message: `What license is utilized by your project?`,
+      choices: ['MIT', 'Apache_2.0', 'GPL', 'BSD', 'ISC'],
     },
     {
       type: "input",
@@ -86,7 +87,7 @@ inquirer
 ![${response.pictureDescription}](${response.picture})
 
 ## Description
-${response.description}
+- ${response.description}
 
 ## Table Of Contents
 * [Installation](#installation)
@@ -100,32 +101,32 @@ ${response.description}
     * [Email](#email)
 
 ## Installation
-${response.installation}
+- ${response.installation}
 
 ## Usage
-${response.usage}
+- ${response.usage}
 
 ## License
-This project uses the following license:<br>
-${response.license}
+- This project uses the following license:<br>
+     ***${response.license}***
 
 ## Contributors
-${response.contribution}
+- ${response.contribution}
 
 ## Tests
-${response.tests}
+- ${response.tests}
 
 ## ${response.title} Github Repository: 
-[${response.title}](${response.repo})
+- [${response.title}](${response.repo})
 
 ## Deployed Link:
-[${response.title}](${response.deployed})
+- [${response.title}](${response.deployed})
 
 ## Contact Information:
-[Github Profile - ${response.githubUsername}](${response.githubProfile})
+- [Github Profile - ${response.githubUsername}](${response.githubProfile})
 
 ### Email:
-For inquiries, please reach out to me at ${response.email}`,
+- For inquiries/questions, please reach out to me at ${response.email}`,
 
       (err) => {
         if (err) {
