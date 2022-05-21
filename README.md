@@ -2,10 +2,13 @@
 
 ![MIT](https://img.shields.io/badge/License-MIT-blue.svg)
 
-![]()
+![](./images/gif1.gif)
+![](./images/gif2.gif)
+![](./images/gif3.gif)
+![](./images/gif4.gif)
 
 ## Description
-- Easily create a structured README
+- Generate a README
 
 ## Table Of Contents
 * [Installation](#installation)
@@ -19,32 +22,29 @@
     * [Email](#email)
 
 ## Installation
-- Have NodeJS and execute the following code in your console to install the required dependencies:
-```
- npm i
-```
+- in terminal, run: npm i to install the dependencies
 
 ## Usage
-- Generates a README file for your projects using Inquirer
+- Generate a README using inquirer prompts
 
 ## License
 - This project uses the following license:<br>
      ***MIT***
 
 ## Contributors
-- Myself for now. To contribute, please contact me below! 
+- Myself for now. Feel free to contact me to contribute!
 
 ## Tests
-- Self-tested using VSCode Terminal
+- Ran it on VSCode/node!
 
 ## README Generator Github Repository: 
-- [README Generator](https://github.com/axe714/PasswordGenerator)
+- [README Generator](www.github.com/axe714)
 
 ## Deployed Link:
-- [README Generator](https://github.com/axe714/PasswordGenerator)
+- [README Generator](www.github.com/axe714)
 
 ## Contact Information:
 - [Github Profile - Axe714](www.github.com/axe714)
 
 ### Email:
-- For inquiries/questions, please reach out to me at allec@github.com
+- For inquiries/questions, please reach out to me at axe@github.com
