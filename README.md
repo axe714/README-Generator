@@ -2,6 +2,7 @@
 
 ![MIT](https://img.shields.io/badge/License-MIT-blue.svg)
 
+
 ![](./images/gif1.gif)
 ![](./images/gif2.gif)
 ![](./images/gif3.gif)
@@ -12,6 +13,7 @@
 
 ## Table Of Contents
 * [Installation](#installation)
+    * [Youtube Walkthrough](#youtube-walkthrough)
 * [Usage](#usage)
 * [License](#license)
 * [Contribution Guidelines](#contribution)
@@ -23,6 +25,7 @@
 
 ## Installation
 - Have nodeJS and Inquirer installed
+- [Youtube Walkthrough](https://www.youtube.com/watch?v=fifwD6noR84) 
 
 ## Usage
 - Generates a README file for your projects using Inquirer
@@ -31,8 +34,7 @@
 - This project uses the following license:<br>
      ***MIT***
 
-
-## Contributors
+## Contributing Guidelines
 - Myself for now. To contribute, please request a pull request or contact me below.
 
 ## Tests
