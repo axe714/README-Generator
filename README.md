@@ -26,6 +26,10 @@
 ## Installation
 - Have nodeJS and Inquirer installed
 - [Youtube Walkthrough](https://www.youtube.com/watch?v=fifwD6noR84) 
+- Run the following code in your terminal to install the following dependencies: 
+```
+npm i 
+```
 
 ## Usage
 - Generates a README file for your projects using Inquirer
@@ -38,7 +42,7 @@
 - Myself for now. To contribute, please request a pull request or contact me below.
 
 ## Tests
-- Self-tested using VSCode Terminal/node
+- Test using VSCode Terminal/node
 
 ## README Generator Github Repository: 
 - [README Generator](https://github.com/axe714/README-Generator)
